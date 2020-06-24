@@ -1,0 +1,70 @@
+==================================1366x768==================================
+Task: 1, Test Name: Search bar should be visible, DOM Id:: DIV__colxlcollg__40, Browser: Chrome, Viewport: 1366x768, Device: Laptop, Status: Pass
+Task: 1, Test Name: Wish list should be visible, DOM Id:: A__wishlist__52, Browser: Chrome, Viewport: 1366x768, Device: Laptop, Status: Pass
+Task: 1, Test Name: Cart Count should be visible, DOM Id:: STRONG____50, Browser: Chrome, Viewport: 1366x768, Device: Laptop, Status: Pass
+Task: 1, Test Name: Grid View should be visible, DOM Id:: I__tiviewgrid__202, Browser: Chrome, Viewport: 1366x768, Device: Laptop, Status: Fail
+Task: 1, Test Name: List View should be visible, DOM Id:: I__tiviewlist__204, Browser: Chrome, Viewport: 1366x768, Device: Laptop, Status: Fail
+Task: 1, Test Name: Filter Icon should be hidden, DOM Id:: A__openfilter__206, Browser: Chrome, Viewport: 1366x768, Device: Laptop, Status: Fail
+Task: 1, Test Name: Filter Name should be hidden, DOM Id:: SPAN____208, Browser: Chrome, Viewport: 1366x768, Device: Laptop, Status: Fail
+Task: 1, Test Name: Grid action items should be hidden, DOM Id:: .grid_item ul li, Browser: Chrome, Viewport: 1366x768, Device: Laptop, Status: Pass
+Task: 1, Test Name: Footer Links should be visible, DOM Id:: .dont-collapse-sm, Browser: Chrome, Viewport: 1366x768, Device: Laptop, Status: Pass
+==================================1920x1080==================================
+Task: 1, Test Name: Search bar should be visible, DOM Id:: DIV__colxlcollg__40, Browser: Chrome, Viewport: 1920x1080, Device: Desktop, Status: Pass
+Task: 1, Test Name: Wish list should be visible, DOM Id:: A__wishlist__52, Browser: Chrome, Viewport: 1920x1080, Device: Desktop, Status: Pass
+Task: 1, Test Name: Cart Count should be visible, DOM Id:: STRONG____50, Browser: Chrome, Viewport: 1920x1080, Device: Desktop, Status: Pass
+Task: 1, Test Name: Grid View should be visible, DOM Id:: I__tiviewgrid__202, Browser: Chrome, Viewport: 1920x1080, Device: Desktop, Status: Fail
+Task: 1, Test Name: List View should be visible, DOM Id:: I__tiviewlist__204, Browser: Chrome, Viewport: 1920x1080, Device: Desktop, Status: Fail
+Task: 1, Test Name: Filter Icon should be hidden, DOM Id:: A__openfilter__206, Browser: Chrome, Viewport: 1920x1080, Device: Desktop, Status: Fail
+Task: 1, Test Name: Filter Name should be hidden, DOM Id:: SPAN____208, Browser: Chrome, Viewport: 1920x1080, Device: Desktop, Status: Fail
+Task: 1, Test Name: Grid action items should be hidden, DOM Id:: .grid_item ul li, Browser: Chrome, Viewport: 1920x1080, Device: Desktop, Status: Pass
+Task: 1, Test Name: Footer Links should be visible, DOM Id:: .dont-collapse-sm, Browser: Chrome, Viewport: 1920x1080, Device: Desktop, Status: Pass
+==================================1024x768==================================
+Task: 1, Test Name: Search bar should be visible, DOM Id:: DIV__colxlcollg__40, Browser: Chrome, Viewport: 1024x768, Device: Tablet, Status: Pass
+Task: 1, Test Name: Wish list should be visible, DOM Id:: A__wishlist__52, Browser: Chrome, Viewport: 1024x768, Device: Tablet, Status: Pass
+Task: 1, Test Name: Cart Count should be visible, DOM Id:: STRONG____50, Browser: Chrome, Viewport: 1024x768, Device: Tablet, Status: Pass
+Task: 1, Test Name: Grid View should be visible, DOM Id:: I__tiviewgrid__202, Browser: Chrome, Viewport: 1024x768, Device: Tablet, Status: Fail
+Task: 1, Test Name: List View should be visible, DOM Id:: I__tiviewlist__204, Browser: Chrome, Viewport: 1024x768, Device: Tablet, Status: Fail
+Task: 1, Test Name: Filter Icon should be hidden, DOM Id:: A__openfilter__206, Browser: Chrome, Viewport: 1024x768, Device: Tablet, Status: Fail
+Task: 1, Test Name: Filter Name should be hidden, DOM Id:: SPAN____208, Browser: Chrome, Viewport: 1024x768, Device: Tablet, Status: Fail
+Task: 1, Test Name: Grid action items should be hidden, DOM Id:: .grid_item ul li, Browser: Chrome, Viewport: 1024x768, Device: Tablet, Status: Pass
+Task: 1, Test Name: Footer Links should be visible, DOM Id:: .dont-collapse-sm, Browser: Chrome, Viewport: 1024x768, Device: Tablet, Status: Pass
+==================================800x600==================================
+Task: 1, Test Name: Search bar should be visible, DOM Id:: DIV__colxlcollg__40, Browser: Chrome, Viewport: 800x600, Device: Tablet, Status: Pass
+Task: 1, Test Name: Wish list should be hidden, DOM Id:: A__wishlist__52, Browser: Chrome, Viewport: 800x600, Device: Tablet, Status: Fail
+Task: 1, Test Name: Cart Count should be visible, DOM Id:: STRONG____50, Browser: Chrome, Viewport: 800x600, Device: Tablet, Status: Pass
+Task: 1, Test Name: Grid View should be hidden, DOM Id:: I__tiviewgrid__202, Browser: Chrome, Viewport: 800x600, Device: Tablet, Status: Fail
+Task: 1, Test Name: List View should be hidden, DOM Id:: I__tiviewlist__204, Browser: Chrome, Viewport: 800x600, Device: Tablet, Status: Fail
+Task: 1, Test Name: Filter Icon should be visible, DOM Id:: A__openfilter__206, Browser: Chrome, Viewport: 800x600, Device: Tablet, Status: Fail
+Task: 1, Test Name: Filter Name should be visible, DOM Id:: SPAN____208, Browser: Chrome, Viewport: 800x600, Device: Tablet, Status: Fail
+Task: 1, Test Name: Grid action items should be visible, DOM Id:: .grid_item ul li, Browser: Chrome, Viewport: 800x600, Device: Tablet, Status: Fail
+Task: 1, Test Name: Footer Links should be visible, DOM Id:: .dont-collapse-sm, Browser: Chrome, Viewport: 800x600, Device: Tablet, Status: Pass
+==================================360x640==================================
+Task: 1, Test Name: Search bar should be hidden, DOM Id:: DIV__colxlcollg__40, Browser: Chrome, Viewport: 360x640, Device: Phone, Status: Fail
+Task: 1, Test Name: Wish list should be hidden, DOM Id:: A__wishlist__52, Browser: Chrome, Viewport: 360x640, Device: Phone, Status: Fail
+Task: 1, Test Name: Cart Count should be hidden, DOM Id:: STRONG____50, Browser: Chrome, Viewport: 360x640, Device: Phone, Status: Fail
+Task: 1, Test Name: Grid View should be hidden, DOM Id:: I__tiviewgrid__202, Browser: Chrome, Viewport: 360x640, Device: Phone, Status: Fail
+Task: 1, Test Name: List View should be hidden, DOM Id:: I__tiviewlist__204, Browser: Chrome, Viewport: 360x640, Device: Phone, Status: Fail
+Task: 1, Test Name: Filter Icon should be visible, DOM Id:: A__openfilter__206, Browser: Chrome, Viewport: 360x640, Device: Phone, Status: Fail
+Task: 1, Test Name: Filter Name should be hidden, DOM Id:: SPAN____208, Browser: Chrome, Viewport: 360x640, Device: Phone, Status: Fail
+Task: 1, Test Name: Grid action items should be visible, DOM Id:: .grid_item ul li, Browser: Chrome, Viewport: 360x640, Device: Phone, Status: Fail
+Task: 1, Test Name: Footer Links should be hidden, DOM Id:: .dont-collapse-sm, Browser: Chrome, Viewport: 360x640, Device: Phone, Status: Fail
+==================================731x411==================================
+Task: 1, Test Name: Search bar should be hidden, DOM Id:: DIV__colxlcollg__40, Browser: Chrome, Viewport: 731x411, Device: Phone, Status: Fail
+Task: 1, Test Name: Wish list should be hidden, DOM Id:: A__wishlist__52, Browser: Chrome, Viewport: 731x411, Device: Phone, Status: Fail
+Task: 1, Test Name: Cart Count should be hidden, DOM Id:: STRONG____50, Browser: Chrome, Viewport: 731x411, Device: Phone, Status: Fail
+Task: 1, Test Name: Grid View should be hidden, DOM Id:: I__tiviewgrid__202, Browser: Chrome, Viewport: 731x411, Device: Phone, Status: Fail
+Task: 1, Test Name: List View should be hidden, DOM Id:: I__tiviewlist__204, Browser: Chrome, Viewport: 731x411, Device: Phone, Status: Fail
+Task: 1, Test Name: Filter Icon should be visible, DOM Id:: A__openfilter__206, Browser: Chrome, Viewport: 731x411, Device: Phone, Status: Fail
+Task: 1, Test Name: Filter Name should be hidden, DOM Id:: SPAN____208, Browser: Chrome, Viewport: 731x411, Device: Phone, Status: Fail
+Task: 1, Test Name: Grid action items should be visible, DOM Id:: .grid_item ul li, Browser: Chrome, Viewport: 731x411, Device: Phone, Status: Fail
+Task: 1, Test Name: Footer Links should be hidden, DOM Id:: .dont-collapse-sm, Browser: Chrome, Viewport: 731x411, Device: Phone, Status: Fail
+==================================375x812==================================
+Task: 1, Test Name: Search bar should be hidden, DOM Id:: DIV__colxlcollg__40, Browser: Chrome, Viewport: 375x812, Device: Phone, Status: Fail
+Task: 1, Test Name: Wish list should be hidden, DOM Id:: A__wishlist__52, Browser: Chrome, Viewport: 375x812, Device: Phone, Status: Fail
+Task: 1, Test Name: Cart Count should be hidden, DOM Id:: STRONG____50, Browser: Chrome, Viewport: 375x812, Device: Phone, Status: Fail
+Task: 1, Test Name: Grid View should be hidden, DOM Id:: I__tiviewgrid__202, Browser: Chrome, Viewport: 375x812, Device: Phone, Status: Fail
+Task: 1, Test Name: List View should be hidden, DOM Id:: I__tiviewlist__204, Browser: Chrome, Viewport: 375x812, Device: Phone, Status: Fail
+Task: 1, Test Name: Filter Icon should be visible, DOM Id:: A__openfilter__206, Browser: Chrome, Viewport: 375x812, Device: Phone, Status: Fail
+Task: 1, Test Name: Filter Name should be hidden, DOM Id:: SPAN____208, Browser: Chrome, Viewport: 375x812, Device: Phone, Status: Fail
+Task: 1, Test Name: Grid action items should be visible, DOM Id:: .grid_item ul li, Browser: Chrome, Viewport: 375x812, Device: Phone, Status: Fail
+Task: 1, Test Name: Footer Links should be hidden, DOM Id:: .dont-collapse-sm, Browser: Chrome, Viewport: 375x812, Device: Phone, Status: Fail
