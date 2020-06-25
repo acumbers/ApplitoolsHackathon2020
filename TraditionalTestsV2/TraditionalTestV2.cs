@@ -13,7 +13,7 @@ namespace TraditionalTestsV2
         private static string version;
         private static string reportFile;
         private static string url;
-        private ChromeDriver webDriver;
+        private IWebDriver webDriver;
         static List<Device> devices;
 
         [ClassInitialize]
@@ -23,31 +23,31 @@ namespace TraditionalTestsV2
             {
                 new Device
                 {
-                    Width = 1366, Height = 768, Browser = "Chrome", DeviceType = "Laptop"
+                    Width = 1366, Height = 768, Browser = Browser.Firefox, DeviceType = "Laptop"
                 },
                 new Device
                 {
-                    Width = 1920, Height = 1080, Browser = "Chrome", DeviceType = "Desktop"
+                    Width = 1920, Height = 1080, Browser = Browser.Edge, DeviceType = "Desktop"
                 },
                 new Device
                 {
-                    Width = 1024, Height = 768, Browser = "Chrome", DeviceType = "Tablet"
+                    Width = 1024, Height = 768, Browser = Browser.Chrome, DeviceType = "Tablet"
                 },
                 new Device
                 {
-                    Width = 800, Height = 600, Browser = "Chrome", DeviceType = "Tablet"
+                    Width = 800, Height = 600, Browser = Browser.Edge, DeviceType = "Tablet"
                 },
                 new Device
                 {
-                    Width = 360, Height = 640, Browser = "Chrome", DeviceType = "Phone"
+                    Width = 360, Height = 640, Browser = Browser.Chrome, DeviceType = "Phone"
                 },
                 new Device
                 {
-                    Width = 731, Height = 411, Browser = "Chrome", DeviceType = "Phone"
+                    Width = 731, Height = 411, Browser = Browser.Firefox, DeviceType = "Phone"
                 },
                 new Device
                 {
-                    Width = 375, Height = 812, Browser = "Chrome", DeviceType = "Phone"
+                    Width = 375, Height = 812, Browser = Browser.Chrome, DeviceType = "Phone"
                 }
             };
 
@@ -108,14 +108,9 @@ namespace TraditionalTestsV2
 
             foreach (var device in devices)
             {
-                ChromeOptions options = new ChromeOptions();
-                options.AddArguments($"window-size={device.Width},{device.Height}");
-
-                webDriver = new ChromeDriver(options)
-                {
-                    Url = url
-                };
-
+                webDriver = device.Driver;
+                webDriver.Url = url;
+                
                 var viewport = $"{device.Width}x{device.Height}";
 
                 WriteLine($"=================================={viewport}==================================");
@@ -135,7 +130,7 @@ namespace TraditionalTestsV2
                         description, 
                         id, 
                         isVisible,
-                        device.Browser, 
+                        device.Browser.ToString(), 
                         viewport, 
                         device.DeviceType
                     );
@@ -172,7 +167,8 @@ namespace TraditionalTestsV2
         {
             try
             {
-                var el = !string.IsNullOrEmpty(element.Id) ? webDriver.FindElementById(element.Id) : webDriver.FindElementByCssSelector(element.Selector);
+                var el = !string.IsNullOrEmpty(element.Id) ? webDriver.FindElement(By.Id(element.Id)) : 
+                    webDriver.FindElement(By.CssSelector(element.Selector));
 
                 if (ShouldHide(element, width))
                 {

@@ -21,6 +21,8 @@ The Hackathon 2020 challenge was to apply automation testing to the AppliFashion
 2. .NET Core 3.1
 3. Windows 10
 4. Chrome Browser Version 83.0.4103.106
+5. FireFox Browser Version 77.0.1
+6. Microsoft Edge Chromium Version 83.0.478.56
 
 #### ModernTestV1 and ModernTestV2 steps to execute using Visual Studio:
 
